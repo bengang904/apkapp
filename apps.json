@@ -1,127 +1,121 @@
 [
     {
       "name": "ATox",
-      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABB0lEQVR4AWJwL/AhCTs6OgLaLRMThmEYiu7gGTJLl/EsniIzaANP4AnCGW6PoAqwoHxMIgdVUCjwIMBHejHykYQiNIGFPr6LkFbrrTYvAt+wewlgc5o0OwYMVFcBKZihQTZkipsAFE432W7JKqt//zLkN9sq2AWqFlyYF52L5iAAxWwCu25RD4HzgQD5CwgLAuwuMCiG/EtgxVNAyfa8bQXQvgI8oY3sNkifwwcQ1MtXAvwEPC/u8BYgaB4ugJdRuAASKtBh6kMFMu79SAGav5biBAoKRG/DYyJQo2eA8PqNFGiTFWhhAppHogTqhcAeIUAXAiVqBrZJ8yScP38X/AWy0L8JHuNvmrKVU+SpRuAAAAAASUVORK5CYII=",
+      "logo": "images/ATox.png",
       "description": "ATox 是一个跨平台的开源即时通讯软件，主要注重隐私保护和安全性。它支持端对端加密，意味着消息在传输过程中不会被第三方（包括 ATox 服务端）解密。ATox 设计理念类似于 Telegram 或 Signal，但它更加注重去中心化和用户数据的隐私。",
       "download": "https://github.com/evilcorpltd/aTox/releases/download/v0.8.0/atox.apk"
     },
     {
       "name": "Audile",
-      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAMAAACf4xmcAAAAUVBMVEVHcEwdSoMcSoIcSoIcSIIcSX8cSoMcSoMcSoIcS4IbTYMcSoIZR4AWQ34SP3v29/nS2OLg5OsMOXfEzdvr7vKMor7Y3eVsh6s4XZCquc1Tcp4LP4HjAAAAC3RSTlMAZkPgBAp9jbueJHhB1zIAAAGpSURBVHicjZTtloQgCIbTvqd0asy07v9CFxQNm3bPvv0hfQ6gIFVVqHlJAZKv6nc1cqwnUj3K5hkSmSFSfIPNawh7MymC8o4JzlxkV/rqCVJZBI48MFGqEHFlRKRmbw9jDvysT1yO+woULNs3k8UV5Ogc7RApVVDAqcjVbQoZ8vJbiW0TxY1ha3LmLcrA/tsE03N3kiit9QfkN5BHCxaIE4CNEdPanyiLmA2mRw6xAW62TlgAuGx0B4dt8DYopjOoFYE1mC5HlSk1ygxzW7c15IbJ6ZScyJgO7LmCzg/9EtYxzK432Yz1DHN3zD1iocHmALtos6BfR9hB8QgfdgR2IQfKIGaCyS8klDRi+74sO2kB0+XrbVmxTthZknb4HCtWLr2aImCcM9GYeOlTUZV2YRfS98FwuujL1JbAgZsDT3igU62KtszulPZQ/knrCcoeIvImx+wSp605zvMwsYeKJ1NV3fVMJ4stZOfrofbXQx0vbvbOefacB/bsm5EPB82Gw9AWU6R7HjX9fXbJ+j+DCwJ39zHYtY/zshXDBQ2i/Wv8iq7vOyFvzA/bcDzJ+k+8oQAAAABJRU5ErkJggg==",
+      "logo": "images/Audile.png",
       "description": "Audile 是一款音乐识别应用，可以帮助您快速准确地识别附近正在播放的音乐曲目，该应用使用 AudD 和 ACRCloud 服务进行歌曲识别，并使用 Odesli 服务检索其他平台特定的曲目链接。",
       "download": "https://f-droid.org/repo/com.mrsep.musicrecognizer_28.apk"
     },
     {
       "name": "Aurora Store",
-      "logo": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJSYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjkBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3NzcxNzc3Nzc3NzA3Nzc3NTc3Nzc3NzU3Nzc4Lf/AABEIAB4AIAMBEQACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAAFBgIEBwMA/8QAKxAAAQMDAgQEBwAAAAAAAAAAAQIDBAAFEUFREiExkQYiYbETFCNCodHw/8QAGwEAAgIDAQAAAAAAAAAAAAAABQYDBwACBAH/xAAuEQABAwEFAw0BAAAAAAAAAAABAAIDBAUREyExEkGRBiIyUWFxgbHB0eHw8RT/2gAMAwEAAhEDEQA/ANxrFiXb/cguSYLS8cACnMHqdv7el7lG6YU7dg82/P08PhFqKmuZiuGuin4fnHjMV1RIPNvJ6biuTk/XnaNNIe72+9q1roMsRvij9NiFqjebii1252UvBKRhCT9yj0FYumkp3VEojHj3LO7eqROubSGyVvvOZJPrzJP5NQzwMnidE/QpsnEcMJJyAH4jjyHIcpSCeFxpXI+xquZY5KOoLdHNP4UNaWysv3FN0GUmZFQ8nUeYbHUVYVHVNqoGyt3+e9AZojE8tKSPGjs253AMRm8xY3IErA416nrp0770QbTyOF4CJ2baVnUbDiyc89hNw6shxXfwYzHtnxpVxWESVeRCcFXCnU5G59vWvf5pepc9rW5S1F0cTr26nI68NyI31+HKKHozvE6PKocJGR2pZ5RWVIY/6gOjke74+6KGzLQic/Bv10UfD035eV8BZ+m9yHorT9dqE2DW4M2C7ou8/nTgiFdBts2xqPJDrhEehy1sqWlWDkHJ5jSrQika9gKQZ4XxPLSVVw5uO9SZKG5y9hzcd61exkjSx4vByK2YZGODmm4hXrdDXLkNoSpKcnJOegHWqyksKSGvwQ4XA3377uGqfoLRbNS412fr7L//2Q==",
+      "logo": "images/Aurora Store.jpeg",
       "description": "Aurora Store 是一个 Android 平台的第三方应用商店，提供了一个替代 Google Play 商店的途径。它的主要特点是允许用户下载和安装应用时，不需要 Google 帐号，并且可以访问到一些被地区限制或在 Google Play 商店无法直接下载的应用。",
       "download": "https://apt.izzysoft.de/fdroid/repo/com.aurora.store_66.apk"
     },
     {
-      "name": "Bitwarden",
-      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAM1BMVEX////////////////////n7vxMeOFRfuK0yfMAT9oVXdy90PU4b+DL2/eqwPGQrexrkuYReFEcAAAABXRSTlMTtv+1tDYU4yAAAAB7SURBVHgB1dKFDQQxEATBffOY80/2mEnwh21xyaIdoh/biRNxtpsgdtC1KJXWqnptSs7QwDahzsLM0LUIU+fhNpHVqU9jmKD0CDNkE4wAm2NCj8EiLZBptOgsNFui9KgxAV7OsSk3f5G3jx094OPeEmRK8pwNHY+axL6VubEL7BH8jKAAAAAASUVORK5CYII=",
-      "description": "Bitwarden 是一个开源的密码管理器，旨在帮助用户安全地存储和管理密码、登录信息、银行卡信息等敏感数据。它支持多平台，包括 Windows、macOS、Linux、Android、iOS 以及浏览器扩展。Bitwarden 以其强大的安全性、跨设备同步和开源特点而受到许多用户的喜爱。",
-      "download": "https://github.com/bitwarden/android/releases/download/untagged-4731eaadac73f3dfbbb8/com.x8bit.bitwarden-fdroid.apk"
-    },
-    {
       "name": "Briar",
-      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAS1BMVEVHcEz////////////////////////////////U6rZ7vQCi0Vav2XC94Ir6/faBvwCHwhKHwhTX6b/q8930+uyO0AGT0hSV0iHe8MUYMixUAAAAD3RSTlMAIBV8z//AlN7///////wwXrEwAAABFklEQVR4AXySBxZEQBBEpcJkmfufdOv1pha/zGemS2cH8jy7pSgrCFVZZGfyGor69KEGB5psRwsYax0Eb20A2kwRAaSutwPIaPveRiDq999CMiIkChPkG3p8S5Sg5pEDmCa5EyciAo8RyEWoMc6KRYTIs4Ba8gHCvCreAm/NQEGhfBJKChXuh0BFAQSjQoSJR5CvQFJKxzJFyH9C16WzkP8ElaRNSQnZWXDeu/gbQoTNGBGGzZCNGCKClGlYUxTBzwr3LrME/LJ+hWX9IUH9or4QFoma1IhuN8RCeFg31L/fratAJN8iheaYA9ENc2o5q1pONe3K/EaQiUkmAPHQ9lPwA4TRh/HQ9q8RzjiYWY/ozEsw+wMAMfIhULY6p28AAAAASUVORK5CYII=",
+      "logo": "images/Briar.png",
       "description": "Briar 是一款开源的即时通讯应用，专注于隐私、安全和去中心化通信。它的设计特别适用于在恶劣环境或没有稳定互联网连接的情况下进行安全通信，因此，许多活动家、记者以及对隐私有较高要求的用户使用它。",
       "download": "https://briarproject.org/apk/briar.apk"
     },
     {
       "name": "Firefox",
-      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAADYElEQVR4AbXWA4wlTRiF4Ql/27Ztc23btm3btm3btm3b9p6ddztfpefWGknO9e2nTldVp6PiFU9839HOeI21Jl71O/nt/WOHEozXkQQix/MXePShgtoXvxmQy+54ax4aqBX/v6F9cQ1zYRB3DWrk7z/dFtwaa7h2/C8P5f2yuDnvGFTP12eTcJMbDUAbfxMx1MvCz/6/LajGbw1WhxdkoJp8VUB9f/D+zHutfU9a9aNDLWD2msGygn3QDt7gFRFQ3qtGNNb0F4UbDvtue/ylRUeOWt+0mXZ2Keyjlk1xxCJiu4D6YIV3RGKgvV8hAu/95pHyY3/br8j0fW+fwGkMTMAsYNbWgVfT/NEA7Kbo0Ce1qNhADf77pG6GDo49i7YkJrg8zhWeWWQOVO4vrqrQl7oNShNQD94zqjIJms7/RSCWMH4dPBU78+vK9q0cCgIw8hMLKAH1YEJDQHE6aTgjtkgkylqIupL5txRK850cagc2bOr70oIPXZgrDt4x+jjdEp0W6fTPHrX8ZB1YGHQxkP0Zdf7PJOWV8jeFUWtpIKHVyOrzRZomP0s8kFUrBsVpHRvfheY0ZcUGCybRb4pECU05SNF/V6hk6j2qnO6kxaHEwCkl2wUg6ZuEOJCmgEHDOH8rAiW0jHanCLBA2k0EmMSA6/y1UYBj8zUTZ4Mzc7V1QkJbaxyAex4rmVZ//adIlHBq8/81RJn/n6JsyZYQDwYjFd6fq2mlywqMq9Oliqmk/rEDjHa0ZQ73PVvq8zNfpFAkSmjJQVL8PBrUYBeaEzBytvnvUrvg6kQ7gRNgQFYpe2PPU4UAHRqG2Sq14nUAdXA4nHIyLlFtcSkkgLS0gBOsAHy8eHNa6ud4BhtKaGqoF8MYGDGQ0BaI03u5fuI+DmTz0/Lyd0k81GDm9EiyVJc7xW4icJ6B+MwtNMAyQUuDwQiGA63ltqdzGnoz2HAvNudh+ELuJDqXKaMu5EvdG8NAl71PFDsCyun1YYdbwL0YTPNTf2YVz86IBO3Ugh5+PwOowT7uD8KFAfN/QI7pgzdBw2193B8A3wPxf8KWu6ObKO4v9zxZbIHB1piEB8Bra8NvDNr/dLHlHOOubxO5CjGvBt8sBvFb/nPf96WcGlbx3ieKz7EBGMBnfGen73a5BumMoll2dex7AAAAAElFTkSuQmCC",
+      "logo": "images/Firefox.png",
       "description": "Firefox 是一款由 Mozilla 开发的开源网页浏览器。它旨在为用户提供一个快速、安全、隐私保护强的浏览体验。自从首次发布以来，Firefox 一直是互联网用户中备受推崇的浏览器之一，尤其以其开源特性和高度可定制性而闻名。",
       "download": "https://archive.mozilla.org/pub/fenix/releases/138.0b6/android/fenix-138.0b6-android-arm64-v8a/fenix-138.0b6.multi.android-arm64-v8a.apk"
     },
     {
       "name": "F-droid",
-      "logo": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMS03Ojo6Iys/RD84QzQ5OjoBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3MDc3Nzc3MDc3Nzc3NDc1Nzc3Nzc3NTgrLTc3Nzc3NS0tNTctNy0vN//AABEIABwAHAMBEQACEQEDEQH/xAAaAAABBQEAAAAAAAAAAAAAAAAHAgMEBQYI/8QALhAAAgEDAgIHCQEAAAAAAAAAAQIDAAQRBRIhUQYTFCIxQbEWMlVhc5OhsvAH/8QAGgEAAQUBAAAAAAAAAAAAAAAABQABAgMEBv/EAC0RAAEDAgMGBAcAAAAAAAAAAAEAAhEDEgQhMQUUIjJxkQZSwfAVQVFhgaHh/9oADAMBAAIRAxEAPwAxXl9JZXQMyBrV07pX3lcHwPMEelYMZjm4OHVBwnLLWffvNMTCbfWrdDteK4Q8mTB9ayVNu4ekbXscD9x/VG8JMutxLFuS3nZiD1e5doc8s0/xujDTY7i0kQD+ZSvCsLbruzx9pKGbaN+wYXPnii7brRdqprO9O9TTS7K1lKM7tLhQDgDhmo1NkN2nDC+23OQsuKrii0EiVi7zpyZ5t01s7uAF4EcPlTYnwgMS++rXJOmgWPfpzLf2nrbpt2prS3mgfqBIqjaRleOKsd4UJpsa6uS1mYED5JDHgkNLUVadFlg/9ZONP0/67frRXZXO7ohm0+RvX0QmnwCVeNGPewXOPE5yP7NGYQ1p+hUvSlZbiAtnjKnE+eMDP4pO5D0UZ429fVdFVyK6dRr/AE+z1KJYr+1iuI1bcFlQMAedTY9zDLTCi9jXiHCVA9ldA+EWf2hVm81/Oe5Ve7UfIOyVF0Z0OKRJI9Js1dCGVhEOBHgaY4isRBee6Qw9IGQ0dlbVSrl//9k=",
+      "logo": "images/F-droid.jpeg",
       "description": "F-Droid 是一个开源的 Android 应用商店，提供无需 Google Play 服务即可安装的自由和开源应用（FOSS）。这个平台旨在为 Android 用户提供一个安全、透明且尊重隐私的替代商店，它只包含那些遵循自由软件许可的应用。",
       "download": "https://f-droid.org/F-Droid.apk"
     },
     {
       "name": "Image Toolbox",
-      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAnCAMAAABUv8o5AAABMlBMVEVHcEwAQBYckD8VZDEDKgwHZC4AMRU+pFADJAY6o09EqFYDLg8FLg9ApVVPrFsHZSwENhYENhUEMBAGXyoHZjAzn00OgDlFqFY9plADJQgJdTMJZC8IazASijsJfjUFUycEMxQEJQkHXCgjlEcFTiVovWlbtGFht2cllkY+n1Rf63gELA4IXSwFOxkIYCwGVykDKAoNdzVg7nkELxEGTCQMfDYKczMIZjAPgTkENhYHUiYHWisFQh4GTyUumksTiz0EMxMFQBwKbjIHVCgPhTojk0UFRiAIYy5JqlkYkj8unUoJajEDIwYjl0UGSSM7pFI1nk44oVAejUFe6Hdj8Xtb43QrjkcfcTgrlklTsV1DplUegz9EuV5Lz2gniUM+slpGw2MceDsafTk7rFcbazVlu2ib2t7uAAAAKnRSTlMABgb9nbIPEUVGzmYwaTRC0rzFYOCY4+616r0anbLR1/Q3+ivEn1ne9fMjkOjbAAADWElEQVR4nJ2UZ3+bSBDGbclFcr3Y53P69SaWRSs6CJAoAoRBFDVLOlXn+3+FG5CTKMV5kQf21f5/M8/szs7e3nfq6PR0/9vE2dlZ5aB+d/fioFKp/PoEtP+sxdYpoArV6wf7T1AtFnZzsRRFsdTXuMs/mrTcalEAFYtiWeqq8hl4/TPHRTQNWQF4FNuq3704/SQUUhlL49q0LBfENi2YaMlnO9ghQoymcB3Iy7JFJEqWZaBa8sFH6pXLYKR0AGvTEJCm2xCXbjflFsX+cvShxkOMkKppQIFgu9mEuDQNi6XYZ0fvKYQwZlRFgzI6OZNrNCt3OC63d7XlXoMtxVIUhtE4/PAwApWbo0E2QFEk53m39n7iRUVTVIaxeoNsqyFQtawcdejc6w+PmEREKJXrDYYPCAJb2mow2mTzKIraO5gkSbxATDcbgj0NFlDlwZCzOK7ZpNt0gZX+HRuSZArmtEHwajlDirVJHgZz1VItrd3stNudvIbzFIKlqRA4DVNc1mpDjutl2Xw1szCcEteEO8xv7C1ghId4TkNEm0ZtCvWUEbdYKshFFiTu5FmPU5uYEk8kAbDAdKZYVBUuihZLxhUxlA/HLkPWv995a962JXPcIISYgRiITHmxmc3UIBARo4LDq9yb580FO42nemNFeF4IEDMd1LLazHJVFykMNM81YMe38VSwx/pQbwSmQESMhrVcM01FjKsyyC0XzXnSWxPAxnF/PavVNqtFo8AWCoPFIHAx/rE43pPE4SUj1sf9rN/vbxlQzCAsmiDxEfOStcCn+nCQU41HLhshaC/RNQVhi9109e4QzM/jbAfTIxFBd2HgXhfY8UnoT1JC7Om6t/yv0HIxxQx0oaWqYnBY2vbl8XNf74aGY6fzORHg44nAkyDAootV/J4CLja6hm4Yju/YEs8bhi3ZNpjH2EW/vfr4Zv70un7oh+HYMfzUcZwxkAIhgiC4hzsP8MIL/W486XWTJNT1nu7oY4MXeJBwufuez2+NJHTCMEkmCbBx4hiGRIj09vrT6VCqnvi+3+32vHv4PS9ODdt+efnlQCq98fWJd//uPu5Nut5E9+2Xpa8OuOf3IG/igM1koo/flJ4YhBfVavXm1tP/ualeXPy+902V/jo/3vtO/Q/GregL7npnDQAAAABJRU5ErkJggg==",
+      "logo": "images/Image Toolbox.png",
       "description": "​Image Toolbox 是一款功能强大的开源图片编辑器，旨在为用户提供全面且专业的图像处理工具。​它支持裁剪、应用滤镜、绘图、背景擦除、EXIF 编辑以及创建 PDF 文件等多种功能。",
       "download": "https://f-droid.org/repo/ru.tech.imageresizershrinker_171.apk"
     },
     {
       "name": "Librera Reader",
-      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAMAAACf4xmcAAABKVBMVEUgQnlsofcrWKM0bs5HcEwyasYwZbwxaMInT5MsW6khQ3suYbYMFSVeleFuoPJimfE2dNxmmOcdPnEkSYgQJEFRjOk6d9sfPXIXLVWIsvQ0btHn5+f///8pUpjd3d3a2to9hPXExMTm5ub8/f0qVJyQpMby8vIuYbXPOyfu7u44d9/k5eWHpNT5+fk5e+fPz887f+41cdPU1NQtXKv19veUs+bq6uvW3uuFncTW19iUrdjg4OE2dNqDl7pbhMrsdz/f4+h6ndbcWjWevvGdvfDjaj3LRDOQqNA/ZKLvnXXxgELWbmG2s7KErvLVSy9yj8Tjdkeds9nB0OjYfWrAv79XkO1Ocq/mimerqKi3nZzLychSjOuwwNvG2vlDh/S/YE3Rnpdce66Tg6eGVAgvAAAAG3RSTlP7/v7+AP3+/vj42vgMD9r/0iZ20B/gfdB3fvSJeETQAAACpElEQVR4nH3UCVeqQBQH8HkIaD21fQWkhEBAQNBAxCUty8oll8psfe/7f4g3M3DMl9T/HA8c/XlnuHMVkGTqIP0rKs3gkj5IkSQgN9IFmKP/U/87Hr8/vQqv8P4tvUGC1I5hfGVvg+vHu3ZXYFnW6x0dFXZSYNcwjPvTC5hzmItzeH0tXTcajbsJVCyfuYdFdsG6ajxrzGKyLHt9c9O4mwXs+LlQWAeHqnrKRLKubWuI5QuGGskczCa6IISsCg6ry0yCe2u3p6bp/Mgyj22YY0HQMTMMC1ARTHhswUxN2/lkVnWJ+eNWq9+a6VIpYGo0k8b9fv9yantBNVWNgbhlfTJ35CKm3OZyuf6xpEhzRsfm7KzXc3E1DbHLaUYLWRWxWCUstXYeLqpjNlEYBbOqRYHfVMi0td68IZh1NSaoZiEWpwLWu58/gh4yP6hmxeJzNlJHc5a9zV1C5ii4veVYjIYsjphWby6c6cfT7OO962ecgFE0WKFpxIaWu9A3RVEkSZOkoBpFyWBFRsyl8pXmoNlsvmjoFDw7CINZPI6YfMVkB3IdJj8cNus+fAQdzhBOwOiQDenKQ76Olz07g9Vs28TBY1mm5SIgipC5Lvx4cW9SSUc/GDzkZRmz4tXS9PqZDG+bMzOLWE2WCSBGMM1nGEcpoYqYFQmQIIiTpbGUFCfr87yH91YrfsN40+N9VI8NmQgS4jKD7SgpjpbxcN9qBIGYuMQ0z7Q9XgvPFDIugjGs4ki6oDtMcKY1UYSM45YZw3umKYV9gyyBWPkrwxGEkA1ELgG2OK7jRzE2PIVJh+O2wCYHXflkMS9u6ZN5UHGbILnKzSNycLfwJRKdQWXkwFVLtQf4/moSkNsLbuEb0Hceyn/Q/eo2/O8lk/t74Ifs7SdJ8h9fX8psA0xXyQAAAABJRU5ErkJggg==",
+      "logo": "images/Librera Reader.png",
       "description": "Librera Reader是一款高度可定制且功能丰富的应用程序，可用于阅读 PDF、EPUB、MOBI、DjVu、FB2、TXT、RTF、AZW、AZW3、HTML、CBZ、CBR、DOC、DOCX 等格式的电子书。",
       "download": "https://f-droid.org/repo/com.foobnix.pro.pdf.reader_6202.apk"
     },
     {
       "name": "LocalSend",
-      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAHlBMVEVHcEwAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAVBnSkAAAACXRSTlMAj6kcwl8Vb9lYZIBGAAAAf0lEQVQokbVSSRKAMAgr0I3/f1hLR0pnNF40J9pMWAIp/Y5CzFTuGEmJ9QRbuKNpvcKqbedI+3p0pV2X4zNHrUydUM4kUxvq1pnaQP6xldXArvnYUjtGSi6uicIpdT2rdegYnQ8z3kmYFjYER8EmYPuQ8XhleNn4TGzexwP7Fgf1vAWlEoDATwAAAABJRU5ErkJggg==",
+      "logo": "images/LocalSend.png",
       "description": "LocalSend 是一款开源的文件传输工具，旨在让用户在设备之间进行快速、简单且安全的文件共享。它支持通过 Wi-Fi 或局域网直接传输文件，无需通过云服务或第三方服务器，从而避免了数据泄露或隐私问题。",
       "download": "https://d.localsend.org/LocalSend-1.17.0-android-arm64v8.apk"
     },
     {
       "name": "MiXplorer",
-      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABdklEQVR4AWMYBkBSzc/I1D6Zy8Q+Ccznl3EDiTEIyrlL61nFyYDEJk5bhdsAAVm37WLK3iXGdklcOuYxICGgZg9doEFrgAYFMjAoM8xZuBmrXpiNR4H4C9DGacIKnsqSqn4uArLuJ0FiQOwDxCBleA04AsT/gfg3EF8C4mdQ/lsRRa8IWa3AIHntoCCfsFJudaMIrAYcAGvAxM+E5DzKgPQLoDcfK+uHKvJJu3EA+ZwwLCTvwQEyYBMOA94DvdIKpF8BDbghquiVDGQvAeIFULwIaEAKyIDNOAz4AjSgB0i/AeJ7YkreblAvIlwo7xnIAFQ0Hci5CsRX0PAFYKBWAW0/DFRzQN8qThzILoOG1X+g7VMyCrvZGESVvKWBAtroGKhYU1E3WBSoUB2Eg6IrWYFiFRgGEAJJWW1AUpdBXMXHCKjxGoYXCAF7z2wwLaHiGwbUdAyID0LxEWDaKSVogKZJJMP///8ZgIEIikIBZAz0Eg/FeQkAOd6V7p9eQE4AAAAASUVORK5CYII=",
+      "logo": "images/MiXplorer.png",
       "description": "MiXplorer 是一款功能强大的 Android 文件管理器，广受用户好评。它支持多种文件操作，包括浏览、复制、粘贴、移动、压缩、解压、重命名等，且具有高度自定义的界面和功能。",
       "download": "https://mixplorer.com/beta/MiXplorer_v6.68.4-Beta_B24112312-arm64.apk"
     },
     {
       "name": "NewPipe",
-      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAQlBMVEVHcEzNHx/NIB/NIB/NIB/NIB/OIB/NIB/NIB7LCwjppaXKAAD76Oj////MGBf+9/fYV1b21tbTOzrhgoLNHx/uuLcSm5WOAAAAFXRSTlMATJPF6P8Roov//////////////0oDSQXXAAAA1klEQVR4AYWTBRLFIAxEgwRarH7/o36XBN1x8piNApGQSiNqJQVUZCwSWQOZJswk+XeNhbQhcazKZPG5Seh33KHPXVh+PkTnEycmYvAE4rL6VJhYAsS47czHAgAS4CnnabYAggLbk1gO4nOCpMC+5j4SFAXW2R8vn+vro0AzIOHsrxfy8dGAGYDo91cqYX0RQ2BswZJELJOUDHh/D6RM3qjdb0WjgOXgt6LVYBngymEZVsVcjJsvDHJNdOX81Vq5r4lPg7UuZEaH0z+9aXy8pc7v+Z/k8Q6bohe+KYEigQAAAABJRU5ErkJggg==",
+      "logo": "images/NewPipe.png",
       "description": "NewPipe 是一款开源的 YouTube 客户端，专为 Android 设备设计。与官方的 YouTube 应用不同，NewPipe 不依赖于 Google 的框架和服务，且没有广告，提供了更为简洁、无干扰的观看体验。它的目标是为用户提供更轻量、隐私友好的 YouTube 观看方式。",
       "download": "https://archive.newpipe.net/fdroid/repo/NewPipe_v0.27.6.apk"
     },
     {
       "name": "OnionShare",
-      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAA6lBMVEUAAABODU5ODU5ODU5ODU5ODU5ODU5ODU5ODU5ODU5ODU5ODU5ODU5ODU5ODU5ODU5NDE1MC0xMCkxODU5ODU5GAkZmLmakgqTKt8rj2ePw6vBaHVrItMj///9LCUuWb5b18fWKX4qRaZFNC01zP3P9/P2AUYD6+fr6+PrbztvLucuTa5NTFFN1QnX+/v7Nus1REVFHBEeNY43r4+tbH1tJBkl+Tn6lhKVFAUWnh6eQaJD08PRODE5IBUiUbJT//v/o3+hWGFZODU6LYItZG1lMCkz28/ZcH1xBAEHIs8jv6e8/AD9GA0aTapPgwJl2AAAARnRSTlMAABc/hb/m+g6z8f8Jfwrg////MfD////////////////////////////////////////////////////////////q///+ey9MJgAAAZ5JREFUeAFckQWSAjEURINLIxkchgzu7qz7Lnr/6yxdo8UrSb6bsPAJ4Q8EQ+FIJBwKBvxUeKAYjcXhEI9F6eExJ5K4I5nwuqTSIJBaJqNJEKRTbnw2R02+UCyVK5VyqVjIU85l7Rwp2qVeVQ5VXdIjZSZIML9RqysP9ZrBKgkfCyRpb6g7mvRIskgUAFrtjrqjxipRIUQMzGB0ezdlfzAcDvpWFR1ATAg/9yNH49Zkqmb6HJjrM6vTPBD3iwCAxVKt1pvtbg+C/YPpUQAQEEEAjzfpaYxnWOzNHEUAQRHCy+sbxfcPCRu9T01JAiHxqX3Zs3/DZj6goqwBYfGzUza/fxKkdTgcKZ/Oh0tERC6H84ni8XBogci/X2Wz+xFhQCvzP5jD5tte+5f2KUKALFHo67CRH+/UvL2+IMQxUVRktofFM8ZPN8UjOGYAQMFM+GAvarfdrFdquQAQ4KqRryrirno6aY2vEly1eSydXXmP1esaBsBjmeeWNXVHp82ZEf0fPMEooatQhCYYQkmOQKIlnOwJZhzCWY9w5iWY/QE3MU4xn5E+AQAAAABJRU5ErkJggg==",
+      "logo": "images/OnionShare.png",
       "description": "OnionShare 是一款开源的软件，用于通过 Tor 网络安全地共享文件和进行匿名通信。它的设计目的是保护用户的隐私，让文件传输变得既安全又不依赖传统的第三方服务器。OnionShare 基于 Tor 的去中心化特性，不会泄露发送者或接收者的身份信息，非常适合需要高度隐私保护的场景。",
       "download": "https://f-droid.org/repo/org.onionshare.android.fdroid_244.apk"
     },
     {
       "name": "OpenKeychain",
-      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAllBMVEVHcEyUwGGTwF+SwF6OtWN6pkeUuGjV1dXExsLQ0NC5x6tzokB3pkN0n0XW1tbJychsmTnb2N69xbVtmDjg2+XFxcWDtUm+xrfW1djZ1tuPvFyyyZijo6OUwGF7rUTc3NxqlzmkoqZ3qz6Qv1mnpaies4ecwHOLqm2Er1Wurq1xqyzK0MKeqpKXoI6CnGfLy8uInXSyy5d2s0QDAAAAHHRSTlMAjLTOQFYR/v77/qrm/titeZNXKDPSwJrEs+rDcDk6jgAAAXRJREFUOI11ktmWgjAQRKMCjSCbuzOEGEJAFNT5/5+bDosE1HrinLqp6nQgZND2BADHNfkmf7m2kAqWX3yIiGUYxoZsPxORs6etFr/HD76RC9pL3N7nmFNN4s9ZTPwFHSm/iZ/pedE2iB5IVpo/Q+NwUi25rKRUFWmSuC/fUpMTMITMOOcx5xXkCCSmFkCpFTmSKx9VwkUBr5JuMifm9b1GomQlvyCQGK1vdpPzuPSu1zqzWYkpKsLVGiitYi4BlgC2auHF0NHuSGQxv1+TSxa3qjEi1ZeEDXisqOJeqmMKxO0lGmUD0D3D4DW6DRWzfgZdTO3SG11T6hGMSW3Z9K0DGGO4zH7XXUeR6b4i9MeiIknvHfGAhpDh6LnxUqlX43NmuE5bEfoPMVc+Tn32nk9Z2A0BATsMxL4BknMru8swtAz3AwGRz6wXYXYl4wwWaCHhqo9wN8TviB3RZRlmGJqb5huJB0yBkXwAJILvAAls296tyT8mZ0PvT8bE6wAAAABJRU5ErkJggg==",
+      "logo": "images/OpenKeychain.png",
       "description": "OpenKeychain 是一个开源的 PGP（Pretty Good Privacy） 密钥管理和加密工具，主要用于 Android 设备。它允许用户对电子邮件、文件、信息等进行加密和解密，以确保通信和数据的隐私性。OpenKeychain 支持 OpenPGP 标准，这是一个广泛使用的标准，用于确保电子通信的安全性。",
       "download": "https://f-droid.org/repo/org.sufficientlysecure.keychain_60400.apk"
     },
     {
       "name": "QR Scanner (PFA)",
-      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAclBMVEUlfK8ieq4eeK0adasXc6oPb6cObqcAaqYAZ6MAZaIAYJ+bwNnP4e3D2OYrf7HJ3eqy0OI3hbWqx9x1psh9qsri7fTk7/Vmn8REg7L///+PttLW5e/s9flEhbNrnsM9i7lMlL73+/250+RbmL+VvNYAXp73rpyxAAABSElEQVR4AY3RBZKDQBBA0XFgFI9gS+T+V9zuSa/rT4CuejgM4pyLnIQUpiGjDdlPCIYMf1BiDX9EFF1gZVkqVVal0pWxFSHTzj8KUYRUq6ZukqsyCl6ktsP6oVH9eDimU+u81YACsTunEEIzNYbP9TIcpnWy2iAKwHCCtqkRYXua9sFrZgDpyAuhuvr0tC2Hoa7eMBDyy3U5XsR4Su9Oe9khQN2oOO1B9K9Ypj5uUDM1cvJxahrJmsIAwispLuOUG6IYh5iOMLYVoWTxEVOKCy3wzQhDqN4jfSb5gtXbaeVAU7CISsnq9YainBrYbrGD10eILwEfBXGbYQrrC6qMUMZmhum/aNMa3nCHKRFqjXgOUJyimtgFpvN7bFesw0fp8+hesbr5RxeuL94n/LnKIELlHbMWHtziBFUa0WCaoimPiDR+GzO/9AxmeibLa4HqigAAAABJRU5ErkJggg==",
+      "logo": "images/QR Scanner (PFA).png",
       "description": "QR Scanner (PFA) 是一款专注于隐私保护的开源二维码扫描应用，旨在为用户提供安全、无广告且易于使用的二维码扫描体验。",
       "download": "https://f-droid.org/repo/com.secuso.privacyFriendlyCodeScanner_60.apk"
     },
     {
       "name": "Seal",
-      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAS1BMVEVHcEz////////////////+/v7U1NRhYWFJSUlVVVV+fn75+fng4OAtLS2jo6OYmJg9PT2wsLDo6OiLi4vDw8NsbGwJCQny8vLLy8tqSqEMAAAABnRSTlMABZ3y//0PBGX1AAAA4klEQVR4AX3TBRLDIABE0cjHiVvvf9F6sbbZKLxhx6Cq6qblR9qmvpvgT0RdNfxNUyWdUmmjrYvNVTRrHeA7zycR+x4sg6P7RjHCJJl75FKiWCfo5sFvK2OJWA/43QKbK/Awr+4D6C9lrQJYhwVwpsB1IWY7MjxGkqx9huZI0akUvSWLTnHxOWYrDXnsEdHrAhcf0C4lDjKgwcDhYA4rLwE1/UrnIBSMU8DN+X30RPSb7sUb10U/iNm+7OhgNW9ELTyiZh6ZtAC6B7YAVhtjxl3d31ptj/e4Qnu6NU839elxuAE2PhGWuVCPbQAAAABJRU5ErkJggg==",
+      "logo": "images/Seal.png",
       "description": "Seal 是一个基于 yt-dlp，从各种视频网站下载内容的安卓客户端。它的主要作用是帮助用户在安卓设备上直接下载视频和音频。",
       "download": "https://f-droid.org/repo/com.junkfood.seal_11314.apk"
     },
     {
       "name": "Termux",
-      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAB1ElEQVR4AcWXMYwBQRSGl2sk6FTXCQWXKNFfgkStFPSJSqJXKFQaVp9Aoe/jeolWJK5SQITmbuzs7twvmVw2xw13OzJ/8jWb37xn5+28N9qdegJxUAVjsABHYHKO/NmYe+L8N671BFJAB++AAnYDyr06SLlJ5Bm0wAawf7IBLb7Wn5QEb8AGzCU2XysJ7tIrmAMmmTlfW6iUrOCCJFKiPZ8A9mAm12rCC1pOo8fjce4hk0yLx/xWGqydplgsRtrtNun1ekaxWCRer1dmImuQdv57/acpGAxao9GIMMbs3W5Hs9nsSfJb0Hls7QUsr5nC4TCdTqcGg2az2SkSiRgSE1jy2FpVdMJlMpnTdrulDBoOhyQQCJiSEqA8tjYWGVGMdq1WI5RS2zRNq16vf+KZrHoYA21xy+j3+63BYEAYdK6HXC5HJCWwANpRYHh0PRyBdveenr+Ew+FgMqjf7xOfz2e5TMBUn4D6LVBfhOo/Q9UHkYujmPeMQqFwKJfL+1KpdEGlUtknEokP0VHsqhlFo1F7tVqZ8P0GbTQaRNSMXLXjUChkN5tNo9vtGp1O5wJd1418Pn8StGNpA4ktQDyQqB/J1A+l6sdy9RcT9Vcz9ZdTNdfzL0zk1YqvTBq4AAAAAElFTkSuQmCC",
+      "logo": "images/Termux.png",
       "description": "Termux 是一款为 Android 设备提供了一个类 Unix 环境的开源应用。通过 Termux，用户可以在 Android 上使用命令行界面，运行 Linux 命令，安装包管理工具，甚至运行复杂的开发工具和服务器软件。",
       "download": "https://f-droid.org/repo/com.termux_1021.apk"
     },
     {
       "name": "Thunderbird",
-      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAASFBMVEX////7/v/n8//Z4vjBy/OXl/RBgeEGgecOdtkWgOORt+P0+//q9f+u0vVnnOh7pNgIb9MHZL/u9//D5P1ei8ycxfQwccAEVrAK4AZZAAABQElEQVR4AWKgEQD0NR8IkIIwAEVpA4FQElC5/003xO3t2/NU7C8Z43wIwb9gZNftpfCJSYJcUEWraA5+MuRTisF/R9MSyjlE05MqdGcPomymwzj/zPGrpdi+oyMg4z+RCNQykLcWDZ7/yZT8h0prJdNRgG5Q0KJvTMzBGy1QBlGa9uAaF0veWM14AomC4s0PR76cQc24rli+Il95l7XslOxaN4nReHHvnris1tA5bGu1H4g3C9KQYcFZBDuJcRGcuEgwPevosQUguANOMyemHXOmst5ajJGId52Kg56cM9+y6n13NdqXVZyOSDDxaHeU4Nj280UsfDTD00vPpDbswSrhxcIgCQDx3g9OmQvOOvHazKzIvMVkqKhh2ZvPro1Diq6eph/7a5fH+h014RrKGCU4lFHVsXE/qlPS6UnxP30BIKcbZImWwvUAAAAASUVORK5CYII=",
+      "logo": "images/Thunderbird.png",
       "description": "Thunderbird 是一款开源的电子邮件客户端，由 Mozilla 基金会开发，专为管理和组织电子邮件而设计。它支持多种邮件协议（如 IMAP、POP3）以及新闻组和 RSS 订阅功能，是一款非常受欢迎的桌面邮件客户端。",
       "download": "https://github.com/thunderbird/thunderbird-android/releases/download/THUNDERBIRD_9_0/thunderbird-9.0.apk"
     },
     {
       "name": "Tor Browser",
-      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAzFBMVEUAAABosERosERosERosERosERosERosERosERosERosERosERosERosERosEQBAQEBAQFosEQBAQEBAQEcMBNIeS9osERNTka4uqcvLyoBAQEBAQH1+N57fXAgEycBAQEBAQFsbWIoFzABAQFdXlTX2cJHKFYBAQE+Pzjm6dCam4tXMWkJBQoBAQEQEA+KjH2pq5l2Q48vKTB+R5hPLV9nOnwBAQHHyrUBAQEgIB0nJCZAJE1uPoVfNnIBAQEBAQEBAQEwGzoYDh0RChQGpkL6AAAAQXRSTlMAIECfYM8QgO9w3zCv/1BQII+A/+//v////98w////QBD//6/////v//////+P///////////P/2D//////7+fcJgRKyAAAAFmSURBVHgBfE+1AQAhEMM9r8D+ozLASdq4YWGtUeG8zoeYgk8inUOpLcp8HyVC4Y0vUPkEoGgfLgBdpu/nBari//659umTrBIcBGIwfIO1PCCboDNlBqdGpy73v9MG1qCWx/xfPM828GbZjvv5jAAkz3+iB4Bh9PFEj4V0JvAwxWuidJp6WV4E98PLCmVdU9ZEyeut/uk6ElFo0tPZjJPcDJgIjdpKMbXT+Wy2uCGWArFWLcpW6WjWEeNWVwaRmMHKTtP1jG3jjhNwbmK9tkMUastAk482ClpbXXzKKYTYdSlGC/MNC6hVy5CoVA9s4iGgkBNYrNcppWrTA/vhkIaBukKUIdnCfAOHYQ+JpJZ0t6hQK+hLeMchcKA2JImyQmqhB7bwNgT8UlpVhbaNRAANA6f9eJOF0zpG2ylSBWfW58koAdvBCY2FApUFE9bh9p4fJRgrTA1cmp139zHfDgl05l2Wq3/vF3/mN1vANq4vAAAAAElFTkSuQmCC",
+      "logo": "images/Tor Browser.png",
       "description": "Tor Browser 是一款基于 Tor 网络构建的开源网络浏览器，它旨在为用户提供匿名、安全和隐私保护的上网体验。通过使用 Tor 网络，Tor Browser 使用户能够隐藏自己的 IP 地址，避免网络监视和跟踪，保护个人隐私，避免在网络上留下痕迹。",
       "download": "https://dist.torproject.org/torbrowser/14.0.9/tor-browser-android-armv7-14.0.9.apk"
     },
     {
       "name": "Trireme for Deluge",
-      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAOVBMVEVHcEwIRJEJRJEHQ5AJRJEHRJERTZsdV6UIRJFEgtMJRJEnY7JMkOkIRJEIQ5A1ccBkmd11q+2Hvf5P0lLnAAAAD3RSTlMAXR7wp////8v/iv//O92e+vW9AAAA3ElEQVR4AXWS4RIDEQwG6/iSC1zw/g9b1bkW4/bvjmUSrwljXo8c1h6P0gHuyRlLbM1D9IQIzn3YI8QY4HcuWZIYhWzaR2NjG+7Rxi6cwPKVwljDF6modq+41igHYmbdhJMFcS5Z0ez6YtdcqULgfrOOU0wXIVfp7+3gStNQawkcb8IwYg/Smkl/UuHHVTUJ+UmGm+VwMmCQHv1OkjtK8OODkFuX73M07vwEuLQwODA+nNP0CCHXIqrarZm/FoEk5ywBDbeu+gOhs677cH/rmlswTXdl9n8zGZPGU29rBA0i4GDkjAAAAABJRU5ErkJggg==",
+      "logo": "images/Trireme for Deluge.png",
       "description": "​Trireme for Deluge 是一款适用于 Android 平台的 Deluge 客户端应用。​Deluge 是一款广受欢迎的跨平台 BitTorrent 客户端，采用服务器-客户端模式。​Trireme 充当 Deluge 的客户端，允许用户在 Android 设备上连接并管理远程运行的 Deluge 守护进程。",
       "download": "https://f-droid.org/repo/org.deluge.trireme_27.apk"
     },
     {
       "name": "VLC media player",
-      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAABI1BMVEVHcEza293LfCm7dSxXQB0AAACWmJnKfTEAAAAGBggAAAB8aU7KgTObaDD9oTOvbykoGw+udjOrrK0AAAAAAAA5KR4AAAC+pJIAAADjizTzlTWbYiiEVybakjPb2tdqMwAAAABPMxnMo4IiGBB+TyPYhy7fijHk5OTq6OPrqUn/sj3n5+iAgILRex3YhjXt7fD////vkjP7nDnbijnUgzPljjf+pj67dS7iiTD7+vqhZynnzbeLWCWeYyj438mobzDWgCXBdy3vmDqWXihUNhmAUSQlGxA4JhXXtorakUquby3lxKvyo0f02cHs5Nzj4uT/2rnkmUUABwlpQx2tiWbbl1f/r07p2s3979/o1MTKy87hq33lnlr1kCL/xoe7pIjUyL7CVecYAAAALnRSTlMAV3zbKjhY/lrWF1hVhXqZ2s+qhHfYqpsHrZqmZICBOgbZ1oB7HvKhyMnEobDEI5B2BAAAAQlJREFUKJGtz8dywjAUhWFKwDYd0ivpPZZkSe4N0zuk9+T9nyIw2WCQFpnJv/1m7twTifxPmQzf0lTgYzEgx1y8CEiRi5fIv+FZaeBa39ccvDIgGJbYtnQOIQBnbMy2Rn2re1hm4m5PHbdxJcvEnKpQWSYxliVbjx+67+P7NAOjAD73rSfwmly0/T0IoQEAGEYZQ76MXxysb4RlJ5bLjz9Hrvtidd+87TDGETJVRem9P7SxLNib+Vk8OUXeBJEuT8J1HW3NarPSCVQF0alppoLiocMNx9MoxUQWqo5WX537tmDqgqZ1nKpdk6T5KamCTSgx7xrSWoox9Oig1rxdWU4s0rSEKIps+XM/8f4pncYTCDkAAAAASUVORK5CYII=",
+      "logo": "images/VLC media player.png",
       "description": "VLC Media Player 是一款非常流行的开源多媒体播放器，几乎可以播放任何类型的音视频文件格式。它由 VideoLAN 项目开发，支持跨平台运行，包括 Windows、macOS、Linux、Android 和 iOS 等操作系统。",
       "download": "https://f-droid.org/repo/org.videolan.vlc_13060307.apk"
     }
