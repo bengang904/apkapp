@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>下载</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+        .logo {
+            width: 200px;
+            height: auto;
+            margin: 20px 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .container {
+            text-align: center;
+        }
+        .message {
+            font-size: 18px;
+            color: #333;
+            margin: 20px 0;
+        }
+        .alert {
+            color: #ff0000;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .refresh-btn {
+            background-color: #202020;
+            margin-top: 20px;
+        }
+        .refresh-btn:hover {
+            background-color: #000000;
+        }
+    </style>
+    <script>
+        // 获取 URL 参数
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        // 检查是否为安卓设备
+        function isAndroid() {
+            return /android/i.test(navigator.userAgent);
+        }
+
+        function openAppPage(packageName) {
+            if (isAndroid()) {
+                // 尝试通过 Aurora Store 打开应用
+                const auroraStoreUrl = `intent://details?id=${packageName}#Intent;package=com.aurora.store;scheme=market;end`;
+
+                // 通过 Aurora Store 打开应用
+                window.location.href = auroraStoreUrl;
+
+                // 如果 Aurora Store 无法打开，2秒后会显示提示（避免跳转时失败）
+                setTimeout(function() {
+                    showAuroraStorePrompt(packageName);
+                }, 2000);
+            } else {
+                showNonAndroidMessage();
+            }
+        }
+
+        function detectAuroraStore(packageName) {
+            if (isAndroid()) {
+                const auroraStoreUrl = `intent://details?id=${packageName}#Intent;package=com.aurora.store;scheme=market;end`;
+                const iframe = document.createElement('iframe');
+                iframe.style.display = 'none';
+                iframe.src = auroraStoreUrl;
+
+                // 检查 Aurora Store 是否可以打开
+                document.body.appendChild(iframe);
+                setTimeout(function () {
+                    document.body.removeChild(iframe);
+                    showAuroraStorePrompt(packageName);
+                }, 2000);
+            }
+        }
+
+        function showAuroraStorePrompt(packageName) {
+            const container = document.getElementById("container");
+            container.innerHTML = `
+                <h2>您需要安装 Aurora Store</h2>
+                <img src="https://apkapp.2024-10-24.zip/images/Aurora%20Store.jpeg" class="logo" alt="Aurora Store Logo">
+                <p class="message">Aurora Store 是一个 Android 平台的第三方应用商店，提供了一个替代 Google Play 商店的途径。它的主要特点是允许用户下载和安装应用时，不需要 Google 帐号，并且可以访问到一些被地区限制或在 Google Play 商店无法直接下载的应用。</p>
+                <a href="https://apt.izzysoft.de/fdroid/repo/com.aurora.store_66.apk" class="button" target="_blank">下载 Aurora Store</a>
+                <button class="button refresh-btn" onclick="window.location.reload();">重新检测</button>
+            `;
+        }
+
+        function showNonAndroidMessage() {
+            const container = document.getElementById("container");
+            container.innerHTML = `
+                <p class="alert">当前设备不是安卓设备，无法执行此操作。</p>
+            `;
+        }
+
+        window.onload = function() {
+            const packageName = getQueryParam('packageName'); // 获取 URL 参数中的 packageName
+            if (packageName) {
+                openAppPage(packageName);
+                detectAuroraStore(packageName);
+            } else {
+                const container = document.getElementById("container");
+                container.innerHTML = `
+                    <p class="alert">未找到有效的应用包名，请检查链接参数。</p>
+                `;
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="container">
+        <!-- 提示信息或 Aurora Store 相关内容将显示在此处 -->
+    </div>
+</body>
+</html>
