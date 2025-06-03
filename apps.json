@@ -118,6 +118,12 @@
       "logo": "images/VLC media player.png",
       "description": "VLC Media Player 是一款非常流行的开源多媒体播放器，几乎可以播放任何类型的音视频文件格式。它由 VideoLAN 项目开发，支持跨平台运行，包括 Windows、macOS、Linux、Android 和 iOS 等操作系统。",
       "download": "https://f-droid.org/repo/org.videolan.vlc_13060307.apk"
+    },
+    {
+      "name": "WebCode",
+      "logo": "images/WebCode.png",
+      "description": "WebCode 是一款旨在帮助开发者和技术爱好者进行 网页开发 和 前端调试。它通常提供一些功能，用于检查和处理网页源代码、测试 Web 应用、查看 HTML、CSS 和 JavaScript 文件等内容。",
+      "download": "https://apkapp.2024-10-24.zip/google-apk-downloads.html?packageName=com.qamar.ide.web"
     }
   ]
   
