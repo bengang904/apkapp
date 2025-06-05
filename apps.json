@@ -80,7 +80,7 @@
     {
       "name": "PocketPal AI ",
       "logo": "images/PocketPal AI .png",
-      "description": "PocketPal AI 是一款开源且免费的移动端人工智能助手，支持在 iOS 和 Android 设备上离线运行小型语言模型（SLMs），无需互联网连接即可与 AI 进行私密对话。",
+      "description": "PocketPal AI 是一款开源且免费的移动端人工智能助手，支持在 Android 设备上离线运行小型语言模型（SLMs），无需互联网连接即可与 AI 进行私密对话。",
       "download": "https://apkapp.2024-10-24.zip/google-apk-downloads.html?packageName=com.pocketpalai"
     },
     {
