@@ -35,6 +35,12 @@
       "description": "F-Droid 是一个开源的 Android 应用商店，提供无需 Google Play 服务即可安装的自由和开源应用（FOSS）。这个平台旨在为 Android 用户提供一个安全、透明且尊重隐私的替代商店，它只包含那些遵循自由软件许可的应用。",
       "download": "https://f-droid.org/F-Droid.apk"
     },
+     {
+      "name": "Hiddify",
+      "logo": "images/Hiddify.png",
+      "description": "Hiddify是一款开源、免费、跨平台的翻墙代理工具，主要用于绕过网络封锁，实现自由、安全的互联网访问。它由社区开发并支持多种操作系统和协议。",
+      "download": "https://github.com/hiddify/hiddify-app/releases/download/v2.5.7/Hiddify-Android-universal.apk"
+    },
     {
       "name": "Image Toolbox",
       "logo": "images/Image Toolbox.png",
@@ -133,3 +139,4 @@
     }
   ]
   
+
