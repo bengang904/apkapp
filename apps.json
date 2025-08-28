@@ -48,6 +48,12 @@
       "download": "https://f-droid.org/repo/ru.tech.imageresizershrinker_171.apk"
     },
     {
+      "name": "Jitsi Meet",
+      "logo": "images/Jitsi Meet.png",
+      "description": "​Jitsi Meet 是一款开源、免费的在线视频会议软件，无需注册即可使用，支持多人视频通话、屏幕共享和端到端加密，常用于远程办公和在线教学。",
+      "download": "https://f-droid.org/repo/org.jitsi.meet_25040004.apk"
+    },
+    {
       "name": "Librera Reader",
       "logo": "images/Librera Reader.png",
       "description": "Librera Reader是一款高度可定制且功能丰富的应用程序，可用于阅读 PDF、EPUB、MOBI、DjVu、FB2、TXT、RTF、AZW、AZW3、HTML、CBZ、CBR、DOC、DOCX 等格式的电子书。",
@@ -136,7 +142,14 @@
       "logo": "images/WebCode.png",
       "description": "WebCode 是一款旨在帮助开发者和技术爱好者进行 网页开发 和 前端调试。它通常提供一些功能，用于检查和处理网页源代码、测试 Web 应用、查看 HTML、CSS 和 JavaScript 文件等内容。",
       "download": "https://apkapp.2024-10-24.zip/google-apk-downloads.html?packageName=com.qamar.ide.web"
+    },
+    {
+      "name": "Winlator",
+      "logo": "images/Winlator.png",
+      "description": "Winlator 是一款免费开源的 Android 应用，它基于 Box64 + Wine 技术，可以在安卓设备上运行部分 Windows 程序和游戏。",
+      "download": "https://github.com/brunodev85/winlator/releases/download/v10.1.0/Winlator_10.1.apk"
     }
   ]
   
+
 
