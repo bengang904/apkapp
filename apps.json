@@ -18,6 +18,12 @@
       "download": "https://apt.izzysoft.de/fdroid/repo/com.aurora.store_66.apk"
     },
     {
+      "name": "Bitwarden",
+      "logo": "images/Bitwarden.png",
+      "description": "Bitwarden 是一款开源的密码管理器，可以帮助你安全地存储、生成和管理密码、密钥及其他敏感信息。它的特点是安全性高、跨平台、免费且支持自托管。",
+      "download": "https://github.com/bitwarden/android/releases/download/v2025.8.1-bwpm/com.x8bit.bitwarden.apk"
+    },
+    {
       "name": "Briar",
       "logo": "images/Briar.png",
       "description": "Briar 是一款开源的即时通讯应用，专注于隐私、安全和去中心化通信。它的设计特别适用于在恶劣环境或没有稳定互联网连接的情况下进行安全通信，因此，许多活动家、记者以及对隐私有较高要求的用户使用它。",
@@ -151,5 +157,6 @@
     }
   ]
   
+
 
 
