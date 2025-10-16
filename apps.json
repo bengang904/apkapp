@@ -41,6 +41,18 @@
       "description": "F-Droid 是一个开源的 Android 应用商店，提供无需 Google Play 服务即可安装的自由和开源应用（FOSS）。这个平台旨在为 Android 用户提供一个安全、透明且尊重隐私的替代商店，它只包含那些遵循自由软件许可的应用。",
       "download": "https://f-droid.org/F-Droid.apk"
     },
+    {
+      "name": "Google Authenticator",
+      "logo": "images/Google Authenticator.png",
+      "description": "Google Authenticator 是由 Google 推出的一个双重身份验证（2FA，Two-Factor Authentication）应用程序。它的主要功能是通过生成动态验证码（一次性密码，OTP）来提高你的账户安全性。",
+      "download": "https://apkapp.2024-10-24.zip/google-apk-downloads.html?packageName=com.google.android.apps.authenticator2"
+    },
+    {
+      "name": "Google Chrome",
+      "logo": "images/Google Chrome.png",
+      "description": "Google Chrome 是一款由 Google 公司开发的网页浏览器。它是用来上网、打开网页、播放在线视频、下载文件、使用网页应用等的电脑或手机软件。",
+      "download": "https://apkapp.2024-10-24.zip/google-apk-downloads.html?packageName=com.android.chrome"
+    },
      {
       "name": "Hiddify",
       "logo": "images/Hiddify.png",
@@ -157,6 +169,7 @@
     }
   ]
   
+
 
 
 
